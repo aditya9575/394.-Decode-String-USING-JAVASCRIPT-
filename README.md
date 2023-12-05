@@ -25,25 +25,4 @@ After processing the entire input string, the code concatenates all the strings 
 
 The final decoded string is returned.
 
-GitHub Repository Description:
-String Decoding Algorithm
 
-This repository contains a JavaScript implementation of a string decoding algorithm. The algorithm efficiently decodes strings containing encoded information within square brackets. It uses a stack-based approach to handle both numbers and characters during the decoding process.
-
-Features:
-Efficient Decoding: The algorithm efficiently decodes strings with a focus on handling multi-digit numbers and repeating substrings enclosed within square brackets.
-
-Clear Stack Management: Utilizes two stacks (numStack and charStack) to maintain clarity in managing numeric and character information during decoding.
-
-
-// Example Usage:
-const encodedString = "3[a2[b]c]";
-const decodedString = decodeString(encodedString);
-console.log(decodedString); // Output: "abbcbbaabbcbbaabbcbc"
-How to Contribute:
-Contributions to enhance performance, handle edge cases, or improve documentation are welcome! Please fork the repository, create a feature branch, and submit a pull request.
-
-License:
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Feel free to customize the repository description based on additional features, use cases, or specific instructions for contributing.
